@@ -1,0 +1,19 @@
+.contato {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--roxo-escuro);
+    color: var(--branco);
+    padding: 3rem;
+    border-radius: 20px;
+    gap: 10px;
+}
+
+.contato h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}

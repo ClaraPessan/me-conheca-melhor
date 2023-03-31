@@ -1,0 +1,13 @@
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    margin: 2.5rem 0;
+}
+
+@media (max-width: 744px) {
+    .cards {
+        align-items: center;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,23 @@
+.card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    background-color: var(--roxo-claro);
+    border-radius: 18px;
+    padding-bottom: 1.25rem;
+}
+
+.inicio {
+    border-bottom: 1px solid var(--roxo-medio);
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--roxo-texto);
+    padding: 1.25rem 0;
+}
+
+.conteudo {
+    font-size: 14px;
+}
